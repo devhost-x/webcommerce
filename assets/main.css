@@ -863,8 +863,7 @@ header .top-search-holder .search-area .search-field {
   border-radius: 5px 0 0 5px;
   border: none;
   width: 47.5%;
-  padding: 10px;
-  margin: 3px 0 4px 0;
+  padding: 13px;
 }
 header .top-search-holder .search-area .search-button {
   float: right;
@@ -1573,7 +1572,7 @@ header .main-menu ul>li>a:hover{
   overflow: hidden;
 }
 #top-brands {
-  padding: 50px 0 84px 0;
+  padding: 0px 0 84px 0;
 }
 #top-brands .container{
   padding:0px;
