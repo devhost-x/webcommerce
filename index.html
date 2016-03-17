@@ -35,14 +35,14 @@
             <div class="container">
                 <div class="col-xs-12 col-sm-4 no-margin">
                     <ul>
-                        <li><b><a href="index.html">Traking</a></b></li>
+                        <li><b><a href="index.html">Tracking</a></b></li>
                         <li><a href="index.html">How to serve you better?</a></li>
                     </ul>
                 </div><!-- End Col -->
 
                 <div class="col-xs-12 col-sm-6 no-margin">
                     <ul class="right">
-                        <li class="dropdown">
+                        <!-- <li class="dropdown">
                             <a class="dropdown-toggle"  data-toggle="dropdown" href="#change-language"><img src="assets/images/icon-language.gif"></a>
                             <ul class="dropdown-menu" role="menu" >
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">English</a></li>
@@ -55,7 +55,7 @@
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Dollar (US)</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Rupiah (RP)</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li><a href="#MyAccount">My Account</a></li>
                         <li><a href="#Compare">Compare</a></li>
                         <li><a href="#MyCart">My Cart</a></li>
@@ -1030,11 +1030,7 @@
     </section>
 
 <!-- ========================================= END LATEST SOLUTION ========================================= -->
-<!-- =========================================  LATEST PRODUCTS ========================================= -->
 
-
-
-<!-- =========================================  END LATEST PRODUCTS ========================================= -->
 <!-- ========================================= BEST SELLERS ========================================= -->
 <section id="bestsellers" >
     <div class="container">
@@ -1318,7 +1314,7 @@
 
 <!-- ========================================= END BEST SELLERS========================================= -->
 
-<!-- ========================================= END LATEST PRODUCT ========================================= -->
+<!-- =========================================  LATEST PRODUCTS ========================================= -->
 
 <section id="latest-product" >
     <div class="container">
@@ -1327,20 +1323,19 @@
                 <h2 class="h1">Latest Products</h2>                                 
                             </div><!-- End Title Nav -->
                <div class="col-md-12 border-space">
-                    <div class="col-md-3">
+                     <div class="col-md-3">
                         <div class="nav-holder">
                             <div class="title-category-slider">
-                                <h4>NEW PRODUCTS</h4>
-                                <span>Spring Collection</span>  
-                            </div>
-                            
+                                <h4>ON SALE</h4>
+                                <span>30-70 %</span> 
+                                                                        </div>
                             <div class="right-navigation">
-                                <a href="#prev" data-target="#owl-best-seller-onsale-product" class="slider-prev btn-prev fa fa-caret-left box-btn-slider"></a>
-                                <a href="#next" data-target="#owl-best-seller-onsale-product" class="slider-next btn-next fa fa-caret-right box-btn-slider"></a>
-                            </div>
-                        </div>
+                                <a href="#prev" data-target="#owl-new-latest-product" class="slider-prev btn-prev fa fa-caret-left box-btn-slider"></a>
+                                <a href="#next" data-target="#owl-new-latest-product" class="slider-next btn-next fa fa-caret-right box-btn-slider"></a>
+                                                                </div>
+                                                    </div>
 
-                        <div id="owl-best-seller-onsale-product" class="owl-carousel product-grid-holder">             
+                        <div id="owl-new-latest-product" class="owl-carousel product-grid-holder">             
                                                     <div class="no-margin carousel-item product-item-holder size-small ">
                                 <div class="product-item">
                                         <div class="ribbon red"><span>New</span></div> 
@@ -1428,10 +1423,8 @@
                                                                 </div>
                                                         </div><!-- End product-item -->
                                                     </div>
-                            </div>
                         </div>
-                    </div>
-
+                       </div>                                        
                     <div class="col-md-9">
                         <div class="nav-holder">
                             <div class="title-category-slider">
@@ -1590,19 +1583,24 @@
                                 </div><!-- End product-item -->
                             </div>
 
-                        </div><!-- End Latest Solution -carousel -->
+                        </div><!-- End Latest Products -carousel -->
                                                                         </div>
                    
                </div>
             </div><!-- End carousel-holder -->
-</section><!-- End #latestproduct -->
+</section><!-- End Latest Products -->
 
-<!-- ========================================= END LATEST PRODUCT ========================================= -->
+<!-- =========================================  END LATEST PRODUCTS ========================================= -->
 
 <!-- ========================================= TOP BRANDS ========================================= -->
 <section id="top-brands" >
         <div class="container" >
-            <div class="carousel-holder" >
+        <div class="col-md-12 no-margin"style="position:relative;">
+            <div  class="box-angle-left">
+                 <span class="angle-carousel"><a href="#prev" data-target="#owl-brands" class="slider-prev btn-prev fa fa-angle-left"></a></span>
+            </div>
+            <div class="box-carousel-topbrands">
+               <div class="carousel-holder" >
                 <!--     <div class="nav-holder">
                         <a href="#prev" data-target="#owl-brands" class="slider-prev btn-prev fa fa-angle-left"></a>
                         <a href="#next" data-target="#owl-brands" class="slider-next btn-next fa fa-angle-right"></a>
@@ -1648,8 +1646,16 @@
                             <img alt="" src="assets/images/image-topbrand-6.png" />
                         </a>
                     </div><!-- /.carousel-item -->
-                </div><!-- /.brands-caresoul -->								
+                </div><!-- /.brands-caresoul -->                                
             </div><!-- /.carousel-holder -->
+            </div>
+             <div  class="box-angle-right">
+                <span class="angle-carousel"><a href="#prev" data-target="#owl-brands" class="slider-prev btn-prev fa fa-angle-right"></a></span>
+            </div>
+        </div>
+       
+        
+         
         </div><!-- /.container -->
 </section><!-- /#top-brands -->
 <!-- ========================================= TOP BRANDS : END ========================================= -->       <!-- 
